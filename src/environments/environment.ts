@@ -5,7 +5,10 @@
 export const environment = {
   production: false
 };
+export enum ServiceConstants {
 
+  SPACEX_LAUNCH_ENDPOINT="https://api.spacexdata.com/v3/launches"
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

@@ -1,0 +1,40 @@
+.filter-card
+{
+    .card-subtitle
+    {
+        text-align: center;
+    }
+    .btn-group-sm{
+        text-align: center;
+        display: block;
+    }
+}
+
+
+.spinner-border
+{
+    height: 24vh;
+    width: 24vh;
+}
+.rocket-detail-card
+{
+    .card{
+        .card-body
+        {
+            .card-title{
+                color:#001B94;
+            }
+            .card-text{
+                li{
+                    color:#001B94;
+                }
+                dl{
+                    dd
+                    {
+                        color:#001B94;
+                    }
+                }
+            }
+        }
+    }
+}
